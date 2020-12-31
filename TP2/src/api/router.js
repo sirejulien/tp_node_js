@@ -1,6 +1,7 @@
 const config =require('../config/env.config');
 
 const utilsRoutes=require('./components/utils/utilsRoutes');
+const userRoutes=require('./components/users/userRoutes');
 
 const router=(app) => {
     app.use(config.root_api,utilsRoutes);
